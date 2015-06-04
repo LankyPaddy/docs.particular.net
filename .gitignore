@@ -100,3 +100,6 @@ DataBusShare/
 
 *.orig
 UpgradeLog.htm
+
+# Resharper
+*.DotSettings
