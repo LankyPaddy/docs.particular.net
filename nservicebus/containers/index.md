@@ -18,7 +18,7 @@ NServiceBus has a built-in container (currently an ILMerged version of Autofac) 
 
 Using an external container is usefull when:
 
-* A external container is already present and you want types that are registered in that container to be injected in your messages handlers or other types that NServiceBus creates internally.
+* you require types that are registered in another container to be injected in your messages handlers or other types that NServiceBus creates internally.
 * Have lifetime requirements on the created instances that are not supported by the  NServiceBus object builder.
 * Not want to use the NServiceBus object builder because you are already familiar with other dependency injection frameworks.
 
